@@ -103,7 +103,12 @@ nav a {
   font-family: obviously, sans-serif;
   font-size: 20px;
   line-height: 27px;
+  font-weight: 700;
   text-align: center;
+}
+
+.introduction-title {
+  margin-bottom: 18px;
 }
 
 .introduction-paragraph {
@@ -118,6 +123,10 @@ img {
   border: 1px solid #22160b;
 }
 
+.intro-img {
+  margin-bottom: 18px;
+}
+
 @media (min-width: 1024px) {
   .introduction-title {
     font-size: 53px;
@@ -127,5 +136,104 @@ img {
   .introduction-paragraph {
     font-size: 28px;
     line-height: 29px;
+  }
+
+  .intro-img {
+    margin-bottom: 0;
+  }
+}
+
+h2 {
+  font-family: obviously, sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu-title {
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-family: anca, sans-serif;
+  font-size: 23px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-paragraph {
+  font-family: anca, sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.menu {
+  border: 1px solid #22160b;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  margin-bottom: 7px;
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 64px;
+    line-height: 100px;
+  }
+
+  .menu-title {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  h3 {
+    font-size: 46px;
+    line-height: 47px;
+    margin-bottom: 42px;
+  }
+
+  .menu-paragraph {
+    font-size: 42px;
+    line-height: 43px;
+    margin-bottom: 100px;
+  }
+
+  .menu {
+    border-top-left-radius: 405px;
+    border-top-right-radius: 405px;
+    margin-bottom: 50px;
+  }
+}
+
+.button-menu {
+  background-color: #e4d7c8;
+  border: 1px solid #22160b;
+  text-align: center;
+  width: 156px;
+  padding: 8px 0;
+  margin-bottom: 31px;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: anca, sans-serif;
+}
+
+.button-menu a {
+  text-decoration: none;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .button-menu {
+    width: 290px;
+    font-size: 42px;
+    line-height: 43px;
+    margin-bottom: 85px;
   }
 }
