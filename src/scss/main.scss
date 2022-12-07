@@ -54,3 +54,47 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  background-color: #e4edd9;
+  color: #22160b;
+}
+
+h1 {
+  font-family: obviously, sans-serif;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 93px;
+    line-height: 146px;
+  }
+
+  nav {
+    font-size: 46px;
+    line-height: 47;
+  }
+}
+
+nav {
+  text-align: center;
+  font-family: anca, sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 21px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.line-separation {
+  border: 1px solid #22160b;
+}
