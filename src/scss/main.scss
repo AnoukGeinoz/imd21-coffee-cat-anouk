@@ -237,3 +237,23 @@ h3 {
     margin-bottom: 85px;
   }
 }
+
+.cats {
+  border-top-right-radius: 160px;
+  border-top-left-radius: 160px;
+}
+
+.names {
+  border: 1px solid#22160b;
+  font-family: obviously, sans-serif;
+  font-size: 27px;
+  line-height: 29px;
+  font-weight: 700;
+  padding: 13px;
+}
+
+@media (min-width: 1024px) {
+  .names {
+    font-size: 19px;
+  }
+}
