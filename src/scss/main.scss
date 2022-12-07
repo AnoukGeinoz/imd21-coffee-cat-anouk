@@ -46,7 +46,7 @@ a {
 
 img,
 video {
-  max-inline-size: 100%;
+  width: 100%;
   block-size: auto;
   vertical-align: middle;
 }
@@ -88,7 +88,7 @@ nav {
   line-height: 19px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 21px;
+  margin-bottom: 9px;
 }
 
 nav a {
@@ -97,4 +97,35 @@ nav a {
 
 .line-separation {
   border: 1px solid #22160b;
+}
+
+.introduction-title {
+  font-family: obviously, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.introduction-paragraph {
+  font-family: anca, sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+img {
+  border: 1px solid #22160b;
+}
+
+@media (min-width: 1024px) {
+  .introduction-title {
+    font-size: 53px;
+    line-height: 66px;
+  }
+
+  .introduction-paragraph {
+    font-size: 28px;
+    line-height: 29px;
+  }
 }
