@@ -320,7 +320,7 @@ h3 {
   text-align: center;
 }
 
-span {
+.age-limit {
   font-family: anca, sans-serif;
   font-size: 20px;
   line-height: 27px;
@@ -337,8 +337,48 @@ span {
     line-height: 66px;
   }
 
-  span {
+  .age-limit {
     font-size: 53px;
     line-height: 66px;
+  }
+}
+
+footer {
+  background-color: #e4d7c8;
+  font-family: anca, sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+h4 {
+  font-family: obviously, sans-serif;
+  font-size: 21px;
+  line-height: 33px;
+  text-align: center;
+}
+
+span {
+  font-size: 23px;
+}
+
+.address {
+  margin-bottom: 27px;
+}
+
+@media (min-width: 1024px) {
+  h4 {
+    font-size: 41px;
+    line-height: 64px;
+  }
+
+  footer {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  span {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
