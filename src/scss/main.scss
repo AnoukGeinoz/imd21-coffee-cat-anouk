@@ -96,7 +96,7 @@ nav a {
 }
 
 .line-separation {
-  border: 1px solid #22160b;
+  border: 0.5px solid #22160b;
 }
 
 .introduction-title {
@@ -208,7 +208,7 @@ h3 {
   }
 }
 
-.button-menu {
+.button {
   background-color: #e4d7c8;
   border: 1px solid #22160b;
   text-align: center;
@@ -220,7 +220,7 @@ h3 {
   font-family: anca, sans-serif;
 }
 
-.button-menu a {
+.button a {
   text-decoration: none;
 }
 
@@ -230,7 +230,7 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .button-menu {
+  .button {
     width: 290px;
     font-size: 42px;
     line-height: 43px;
@@ -255,5 +255,64 @@ h3 {
 @media (min-width: 1024px) {
   .names {
     font-size: 19px;
+  }
+}
+
+.shop {
+  background-color: #e4d7c8;
+  font-family: anca, sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.shop-img {
+  border-top-left-radius: 78px;
+  border-top-right-radius: 78px;
+}
+
+.shop-description {
+  display: flex;
+  align-items: center;
+}
+
+.button-shop {
+  border: 1px solid#22160b;
+  padding: 8px 0;
+  width: 156px;
+}
+
+.button-shop a {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .shop {
+    font-size: 42px;
+    line-height: 43px;
+  }
+
+  .shop-img {
+    border-top-left-radius: 221px;
+    border-top-right-radius: 221px;
+  }
+
+  .button-shop {
+    padding: 8px 0;
+    width: 290px;
+  }
+}
+
+.planning {
+  font-family: anca, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+@media (min-width: 1024px) {
+  .planning {
+    font-size: 42px;
+    line-height: 70px;
   }
 }
