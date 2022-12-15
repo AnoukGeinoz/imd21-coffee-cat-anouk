@@ -66,7 +66,7 @@ h1 {
   font-weight: 700;
   line-height: 64px;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 1024px) {
@@ -99,6 +99,10 @@ nav a {
   border: 0.5px solid #22160b;
 }
 
+header {
+  margin-bottom: 29px;
+}
+
 .introduction-title {
   font-family: obviously, sans-serif;
   font-size: 20px;
@@ -117,6 +121,10 @@ nav a {
   line-height: 19px;
   text-align: center;
   margin-bottom: 21px;
+}
+
+.introduction {
+  margin-bottom: 42px;
 }
 
 img {
@@ -148,10 +156,10 @@ h2 {
   font-size: 32px;
   line-height: 50px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .menu-title {
-  margin-bottom: 30px;
   margin-top: 25px;
 }
 
@@ -168,7 +176,7 @@ h3 {
   font-size: 18px;
   line-height: 19px;
   text-align: center;
-  margin-bottom: 33px;
+  margin-bottom: 21px;
 }
 
 .menu {
@@ -214,7 +222,7 @@ h3 {
   text-align: center;
   width: 156px;
   padding: 8px 0;
-  margin-bottom: 31px;
+  margin-bottom: 43px;
   font-size: 18px;
   line-height: 19px;
   font-family: anca, sans-serif;
@@ -238,9 +246,18 @@ h3 {
   }
 }
 
+.menu-container {
+  margin-bottom: 42px;
+}
+
+.cats-container {
+  margin-bottom: 40px;
+}
+
 .cats {
   border-top-right-radius: 160px;
   border-top-left-radius: 160px;
+  margin-bottom: 20px;
 }
 
 .names {
@@ -250,6 +267,8 @@ h3 {
   line-height: 29px;
   font-weight: 700;
   padding: 13px;
+  margin-bottom: 42px;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
@@ -262,6 +281,8 @@ h3 {
   background-color: #e4d7c8;
   border-top: 1px solid#22160b;
   border-bottom: 1px solid#22160b;
+  padding: 24px 0;
+  margin-bottom: 42px;
 }
 
 .shop {
@@ -286,6 +307,11 @@ h3 {
   text-decoration: none;
 }
 
+.shop-paragraph {
+  margin-bottom: 64px;
+  margin-top: 26px;
+}
+
 @media (min-width: 1024px) {
   .shop {
     font-size: 42px;
@@ -308,6 +334,7 @@ h3 {
   text-align: center;
   font-size: 18px;
   line-height: 40px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 1024px) {
@@ -317,12 +344,17 @@ h3 {
   }
 }
 
+.accroch-container {
+  padding: 98px 10px;
+}
+
 .accroch-paragraph {
   font-family: obviously, sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .age-limit {
@@ -358,6 +390,7 @@ footer {
   text-align: center;
   font-size: 17px;
   line-height: 23px;
+  padding: 28px 100px 51px;
 }
 
 h4 {
@@ -365,6 +398,7 @@ h4 {
   font-size: 21px;
   line-height: 33px;
   text-align: center;
+  margin-bottom: 27px;
 }
 
 span {
