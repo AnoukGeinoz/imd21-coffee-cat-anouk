@@ -273,14 +273,15 @@ h3 {
 
 .cats-img {
   height: 100%;
+  width: 100%;
   border: none;
+  object-fit: cover;
 }
 
 .cats {
   border-top-right-radius: 160px;
   border-top-left-radius: 160px;
   height: 320px;
-  width: 344px;
   margin-bottom: 20px;
   overflow: hidden;
   border: 1px solid#22160b;
@@ -325,11 +326,21 @@ h3 {
   font-size: 18px;
   line-height: 19px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .shop-img {
+  border: none;
+  object-fit: cover;
+}
+
+.shop-img-container {
   border-top-left-radius: 78px;
   border-top-right-radius: 78px;
+  height: 194px;
+  overflow: hidden;
+  border: 1px solid#22160b;
 }
 
 .button-shop {
@@ -345,12 +356,8 @@ h3 {
 .shop-here {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-}
-
-.shop-paragraph {
-  // margin-bottom: 64px;
-  // margin-top: 26px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
