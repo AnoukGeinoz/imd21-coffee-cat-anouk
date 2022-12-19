@@ -154,6 +154,14 @@ img {
   .introduction {
     margin-bottom: 86px;
   }
+
+  .line-separation {
+    border: 1px solid #22160b;
+  }
+
+  img {
+    border: 2px solid #22160b;
+  }
 }
 
 h2 {
@@ -257,12 +265,25 @@ h3 {
 
 .cats-container {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cats-img {
+  height: 100%;
+  border: none;
 }
 
 .cats {
   border-top-right-radius: 160px;
   border-top-left-radius: 160px;
+  height: 320px;
+  width: 344px;
   margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid#22160b;
 }
 
 .names {
@@ -321,9 +342,15 @@ h3 {
   text-decoration: none;
 }
 
+.shop-here {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .shop-paragraph {
-  margin-bottom: 64px;
-  margin-top: 26px;
+  // margin-bottom: 64px;
+  // margin-top: 26px;
 }
 
 @media (min-width: 1024px) {
