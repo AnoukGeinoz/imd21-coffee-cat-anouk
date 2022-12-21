@@ -340,6 +340,11 @@ h3 {
   flex-direction: row;
 }
 
+.shop-paragraph {
+  margin-bottom: 36px;
+  margin-top: 50px;
+}
+
 .shop-img {
   border: none;
   object-fit: cover;
@@ -378,7 +383,6 @@ h3 {
   }
 
   .button-shop {
-    padding: 8px 0;
     width: 290px;
   }
 
@@ -508,8 +512,8 @@ span {
 }
 
 .theme {
-  background-color: aqua;
   color: #ffe900;
+  background-image: url(../img/gradient.webp);
 }
 
 .theme .footer-wrap {
@@ -540,4 +544,8 @@ span {
 
 .theme .intro-img {
   border: 1px solid #ffe900;
+}
+
+.theme .shop-wrap {
+  display: none;
 }
