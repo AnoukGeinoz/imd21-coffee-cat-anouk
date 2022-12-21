@@ -226,6 +226,7 @@ h3 {
     border-top-left-radius: 405px;
     border-top-right-radius: 405px;
     margin-bottom: 62px;
+    border: 2px solid #22160b;
   }
 }
 
@@ -298,10 +299,15 @@ h3 {
   text-align: center;
 }
 
+.cats-section {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 1024px) {
   .names {
     font-size: 19px;
     margin-bottom: 86px;
+    border: 2px solid #22160b;
   }
 
   .cats-title {
@@ -310,6 +316,10 @@ h3 {
 
   .cats-section {
     margin-bottom: 86px;
+  }
+
+  .cats {
+    border: 2px solid #22160b;
   }
 }
 
@@ -378,12 +388,15 @@ h3 {
 
   .shop-wrap {
     margin-bottom: 86px;
+    border-top: 2px solid#22160b;
+    border-bottom: 2px solid#22160b;
   }
 
   .shop-img-container {
     height: 441px;
     border-top-left-radius: 221px;
     border-top-right-radius: 221px;
+    border: 2px solid#22160b;
   }
 }
 
@@ -486,5 +499,9 @@ span {
 
   footer {
     padding: 46px 330px 72px;
+  }
+
+  .footer-wrap {
+    border-top: 2px solid#22160b;
   }
 }
