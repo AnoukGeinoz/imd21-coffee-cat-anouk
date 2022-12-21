@@ -343,6 +343,7 @@ h3 {
 .shop-img {
   border: none;
   object-fit: cover;
+  height: 100%;
 }
 
 .shop-img-container {
@@ -508,4 +509,35 @@ span {
 
 .theme {
   background-color: aqua;
+  color: #ffe900;
+}
+
+.theme .footer-wrap {
+  background-color: #a73cfd;
+  border-top: 1px solid #ffe900;
+}
+
+.theme .line-separation {
+  border: 1px solid #ffe900;
+}
+
+.theme .names {
+  border: 1px solid #ffe900;
+}
+
+.theme .menu {
+  border: 1px solid #ffe900;
+}
+
+.theme .cats {
+  border: 1px solid #ffe900;
+}
+
+.theme .button {
+  border: 1px solid #ffe900;
+  background-color: #a73cfd;
+}
+
+.theme .intro-img {
+  border: 1px solid #ffe900;
 }
