@@ -478,7 +478,7 @@ h4 {
   margin-bottom: 27px;
 }
 
-span {
+.span-footer {
   font-size: 23px;
 }
 
@@ -497,7 +497,7 @@ span {
     line-height: 40px;
   }
 
-  span {
+  .span-footer {
     font-size: 40px;
     line-height: 40px;
   }
@@ -547,5 +547,29 @@ span {
 }
 
 .theme .shop-wrap {
+  display: none;
+}
+
+.switch-text span:nth-child(2) {
+  display: none;
+}
+
+.theme .switch-text :first-child {
+  display: none;
+}
+
+.theme .switch-text span:nth-child(2) {
+  display: inline;
+}
+
+.second-img {
+  display: none;
+}
+
+.theme .second-img {
+  display: inline;
+}
+
+.theme .basic-img {
   display: none;
 }
